@@ -1,0 +1,41 @@
+
+
+body {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #c7b39b url(back2.jpg);
+}
+
+.list {
+    position: relative;
+    height: 400px;
+    width: 740px;
+    margin-left: 240px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+.list img {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    border: solid;
+    box-shadow:  0 0 100px rgba(0,0,0,1);
+}
+
+
+#item3:active {
+    margin-top: -200px;
+}
+
+
+.text {
+    padding-top:  100px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
